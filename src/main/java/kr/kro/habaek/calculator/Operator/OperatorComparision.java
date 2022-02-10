@@ -1,6 +1,4 @@
-package kr.kro.habaek.calculator;
-
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
+package kr.kro.habaek.calculator.Operator;
 
 public class OperatorComparision {
     public static void Main(String args[]) {

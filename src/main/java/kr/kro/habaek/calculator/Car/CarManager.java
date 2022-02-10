@@ -1,4 +1,6 @@
-package kr.kro.habaek.calculator;
+package kr.kro.habaek.calculator.Car;
+
+import kr.kro.habaek.calculator.Car.Car;
 
 public class CarManager {
     public static void main(String[] args) {

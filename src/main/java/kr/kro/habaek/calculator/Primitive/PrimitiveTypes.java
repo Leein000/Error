@@ -1,4 +1,4 @@
-package kr.kro.habaek.calculator;
+package kr.kro.habaek.calculator.Primitive;
 
 public class PrimitiveTypes {
     public static void main(String[] args) {

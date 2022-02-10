@@ -1,4 +1,4 @@
-package kr.kro.habaek.calculator;
+package kr.kro.habaek.calculator.Operator;
 
 public class OperatorTilde {
     public static void Main(String args[]) {

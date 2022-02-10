@@ -1,4 +1,4 @@
-package kr.kro.habaek.calculator;
+package kr.kro.habaek.calculator.Control;
 
 public class ControlIfAndOr {
     public static void Main(String args[]) {

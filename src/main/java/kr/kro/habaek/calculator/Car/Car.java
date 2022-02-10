@@ -1,11 +1,11 @@
-package kr.kro.habaek.calculator;
+package kr.kro.habaek.calculator.Car;
 
 public class Car {
     int speed;
     int distance;
     String color;
 
-    public car() {
+    public void car() {
     }
 
     public void speedUp() {

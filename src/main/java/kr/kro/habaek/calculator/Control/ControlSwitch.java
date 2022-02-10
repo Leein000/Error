@@ -1,4 +1,4 @@
-package kr.kro.habaek.calculator;
+package kr.kro.habaek.calculator.Control;
 
 public class ControlSwitch {
     public static void Main(String args[]) {
@@ -11,7 +11,7 @@ public class ControlSwitch {
     }
 
     public void swtichStatement(int numberOfWheel) {
-        switch(numberOfWheel) {
+        switch (numberOfWheel) {
             case 1:
                 System.out.println(numberOfWheel + ": It is one foot bicycle.");
                 break;
@@ -27,6 +27,7 @@ public class ControlSwitch {
             default:
                 System.out.println(numberOfWheel + ":It is an expensive car.");
                 break;
+            }
         }
 
         public void swtichStatement2(int numberOfWheel) {
