@@ -46,7 +46,6 @@ public class ControlSwitch {
                 default:
                     System.out.println(numberOfWheel + "It is an expensive car.");
                     break;
-            }
         }
     }
 }

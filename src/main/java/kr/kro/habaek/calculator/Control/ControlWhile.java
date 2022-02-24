@@ -9,6 +9,7 @@ public class ControlWhile {
         control.whileLoop1();
         control.whileLoop2();
         control.whileBreak();
+        control.whileContinue();
     }
 
     public static void ControlOfFlow(String args[]) {
@@ -18,7 +19,11 @@ public class ControlWhile {
 
     public void whileLoop1() {
         ControlWhile control = new ControlWhile();
+        int loop = 0;
+        while (loop < 12) {
+            loop++;
         control.whileLoop1();
+        }
     }
 
     public void whileLoop2() {
@@ -27,8 +32,9 @@ public class ControlWhile {
         while (loop < 12) {
             loop++;
             control.switchCalendar(loop);
-            if(loop == 6) loop = 100;
+            if (loop == 6) loop = 100;
         }
+    }
 
         public void whileBreak() {
             ControlSwitch control = new ControlSwitch();
@@ -38,6 +44,15 @@ public class ControlWhile {
                 control.swtichCalendar(loop);
                 if(loop == 6) break;
             }
+        }
+
+    public void whileContinue() {
+        ControlSwitch control = new ControlSwitch();
+        int loop = 0;
+        while(loop < 12) {
+            loop++;
+            if(loop == 6) continue;
+            control.switchCalendar(loop);
         }
     }
 }

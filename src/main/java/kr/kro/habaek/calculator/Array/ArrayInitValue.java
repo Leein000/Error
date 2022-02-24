@@ -40,6 +40,13 @@ public class ArrayInitValue {
         System.out.println("strings[0]="+strings[0]);
         System.out.println("strings[1]="+strings[1]);
         System.out.println("array[0]="+array[0]);
-        System.out.println("array[1]="array[1]);
+        System.out.println("array[1]="+array[1]);
+    }
+
+    public void otherInit() {
+    }
+
+    public boolean getMonth(int i) {
+        return false;
     }
 }
